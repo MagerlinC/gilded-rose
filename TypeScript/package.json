@@ -5,6 +5,7 @@
   "scripts": {
     "precompile": "rimraf app/**/*.js test/**/*.js",
     "compile": "tsc",
+    "test:text": "npx ts-node test/golden-master-text-test.ts",
     "pretest": "rimraf app/**/*.js test/**/*.js",
     "test:jest": "jest",
     "test:jest:watch": "jest --watchAll",
